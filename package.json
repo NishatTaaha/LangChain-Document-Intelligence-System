@@ -1,0 +1,66 @@
+{
+  "name": "langchain-document-intelligence",
+  "version": "1.0.0",
+  "description": "LangChain.js Document Intelligence & Analysis System",
+  "main": "dist/index.js",
+  "bin": {
+    "doc-intel": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "cli": "ts-node src/cli.ts",
+    "server": "node dist/server.js",
+    "dev:server": "ts-node src/server.ts",
+    "simple-server": "ts-node src/simple-server.ts",
+    "web": "ts-node src/simple-server.ts",
+    "lightweight": "ts-node src/lightweight-server.ts",
+    "demo": "ts-node src/lightweight-server.ts",
+    "watch": "nodemon --watch src --ext ts --exec \"npm run dev\"",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "langchain",
+    "document-processing",
+    "ai",
+    "nlp",
+    "typescript",
+    "semantic-search",
+    "rag"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/express-fileupload": "^1.5.1",
+    "@types/fs-extra": "^11.0.4",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.1.0",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.66",
+    "@langchain/groq": "^0.2.3",
+    "@langchain/openai": "^0.6.3",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^14.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "fs-extra": "^11.3.0",
+    "langchain": "^0.3.30",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1",
+    "uuid": "^11.1.0"
+  }
+}
