@@ -1,6 +1,6 @@
 # � LangChain Document Intelligence System
 
-A powerful, AI-driven document analysis and question-answering system built with TypeScript, LangChain.js, and modern web technologies. This system demonstrates advanced document processing, semantic analysis, and intelligent Q&A capabilities with both CLI and web interfaces.
+An AI-driven document analysis and question-answering system built with TypeScript, LangChain.js, and modern web technologies. This system demonstrates advanced document processing, semantic analysis, and intelligent Q&A capabilities with both CLI and web interfaces.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
